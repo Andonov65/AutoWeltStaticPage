@@ -142,9 +142,7 @@ export default {
                   link: "https://s-leasing.mk/content/Izjava-za-vistinski-sopstvenik.pdf"
               },
           ]
-
       }
     }
-
 }
 </script>
