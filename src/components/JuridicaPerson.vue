@@ -46,8 +46,7 @@
         name: "JuridicaPerson",
         props: {
             listJurisdictionPerson: {
-                type: [],
-                required: true
+                type: Array
             }
         }
     }

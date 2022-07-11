@@ -53,8 +53,7 @@
         name: "PhysicalPerson",
         props: {
             physicalPersonList: {
-                type: [],
-                required: true
+                type: Array
             }
         }
     }

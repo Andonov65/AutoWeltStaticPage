@@ -1,7 +1,9 @@
 <template>
     <section>
         <div class="ratio ratio-11x9 mb-4">
-            <img class="img-fluid" src="../assets/img/auto-welt-buying-steps-image.jpg">
+            <img class="img-fluid"
+                 src="../assets/img/auto-welt-buying-steps-image.jpg"
+                alt="buyimg-steps-for-lizing-image">
         </div>
         <div class="fs-4 mb-5">
             <p class="mb-4 me-5">

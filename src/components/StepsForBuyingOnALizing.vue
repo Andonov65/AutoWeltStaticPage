@@ -26,8 +26,7 @@
         name: "StepsForBuyingOnALizing",
         props: {
             stepsForLizingList: {
-                type: [],
-                required: false
+                type: Array
             }
         }
     }
