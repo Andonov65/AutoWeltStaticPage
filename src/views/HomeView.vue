@@ -1,5 +1,5 @@
 <template>
-  <main class="container py-5 mx-md-auto font-style">
+  <main class="container py-5 mx-md-auto font-style col-12 col-md-10">
       <image-with-steps/>
       <steps-for-buying-on-a-lizing :steps-for-lizing-list="stepsForLizingList"/>
       <physical-person :physical-person-list="physicalPersonList" />
