@@ -1,5 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 
-.ratio-29x24{
-  --bs-aspect-ratio: calc(24 / 29 * 100%);
+.ratio-11x9{
+  --bs-aspect-ratio: calc(9 / 11 * 100%);
+}
+
+.font-style{
+  font-family: Tahoma;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.list-style-type-square{
+  list-style-type: square;
 }
