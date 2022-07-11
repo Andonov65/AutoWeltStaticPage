@@ -23,10 +23,12 @@ import JuridicaPerson from "@/components/JuridicaPerson";
 
 export default {
   name: 'HomeView',
-  components: {ImageWithSteps,
+  components: {
+      ImageWithSteps,
       StepsForBuyingOnALizing,
       PhysicalPerson,
-      JuridicaPerson},
+      JuridicaPerson
+  },
     data(){
       return{
           stepsForLizingList: [
