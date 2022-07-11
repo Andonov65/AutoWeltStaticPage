@@ -1,14 +1,16 @@
 <template>
   <main class="container font-style">
-
       <image-with-steps/>
       <steps-for-buying-on-a-lizing :steps-for-lizing-list="stepsForLizingList"/>
       <physical-person :physical-person-list="physicalPersonList" />
       <hr/>
       <juridica-person :list-jurisdiction-person="jurisdictionPersonList"/>
       <hr/>
-      <p class="text-danger fs-5 me-md-5 pe-md-5"><i>* НАПОМЕНА: ДОКОЛКУ ПОДАТОЦИТЕ КОИ ГИ ОСТАВАТЕ ПРИ ПРЕД-ОДОБРУВАЊЕТО НЕ СЕ ТОЧНИ И ПРЕЦИЗНИ МОЖНО Е АПЛИКАЦИЈАТА ЗА ЛИЗИНГ ДА ВИ БИДЕ ОДБИЕНА ИЛИ ПРОЛОНГИРАНА ОД СТРАНА НА БАНКАТА И ПРИТОА ГО ГУБИТЕ ОСТАВЕНИОТ КАПАР.</i></p>
-
+      <p class="text-danger fs-5 me-md-5 pe-md-5">
+          <i>
+              * НАПОМЕНА: ДОКОЛКУ ПОДАТОЦИТЕ КОИ ГИ ОСТАВАТЕ ПРИ ПРЕД-ОДОБРУВАЊЕТО НЕ СЕ ТОЧНИ И ПРЕЦИЗНИ МОЖНО Е АПЛИКАЦИЈАТА ЗА ЛИЗИНГ ДА ВИ БИДЕ ОДБИЕНА ИЛИ ПРОЛОНГИРАНА ОД СТРАНА НА БАНКАТА И ПРИТОА ГО ГУБИТЕ ОСТАВЕНИОТ КАПАР.
+          </i>
+      </p>
   </main>
 </template>
 
