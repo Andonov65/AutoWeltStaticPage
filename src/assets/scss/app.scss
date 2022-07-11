@@ -1,0 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
+.ratio-29x24{
+  --bs-aspect-ratio: calc(24 / 29 * 100%);
+}
